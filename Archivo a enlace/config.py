@@ -2,8 +2,8 @@ import os
 
 
 class Config:
-    API_ID = int(os.environ.get("API_ID"))
-    API_HASH = os.environ.get("API_HASH")
+    API_ID = int(os.environ.get("23067663"))
+    API_HASH = os.environ.get("8b2aa6c8a7372df2f1a344b541a2aadb")
     Token = os.environ.get("5611994413:AAGhdL6RSenw7-Ddq8fktbqH6WRHdVdCi2g")
     Session = os.environ.get("Session_String")
     if Session is None or Session == "":
